@@ -1,1 +1,8 @@
+---
+layout: post
+title:  "Calculus Intro"
+date:   2017-08-02 04:11 -0500
+categories: applied_math calc
+---
 
+Test
