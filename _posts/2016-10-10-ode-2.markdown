@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: page
 title:  "Trampolines"
 date:   2016-10-09 10:10 -0500
 categories: applied_math diff_eq
+mathjax: true
 ---
 There is a form of differential equation I never went into last time, I will generate it again, this time through a different stand-alone example. Trampolines are a great way to see the use of such equations in the real world. First let's ignore how they work and consider what they do. A trampoline is a large area of fabric that remains stretched out. When someone stands on the surface, the fabric gets pulled in, so that their feet are lower than the surface was originally. When someone jumps on the trampoline, the surface pushes back and allows them to jumps higher. Without any extra legwork, a person may remain bouncing for a little while, however, normally they'll need to put in some effort in order to continue bouncing. How is this all possible?
 
@@ -29,7 +30,9 @@ so
 $$x = A\sin(\sqrt{\frac{k}{m}}t + \phi)$$
 
 I also added constants $$\phi$$ and A since these do not create any extra terms during differentiation.
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Sine_one_period.svg/600px-Sine_one_period.svg.png" alt="sine graph" style="width:600px;height:240px;">
+
 The above gives the shape of such a curve. What values the constants end up taking depend on the initial conditions. In order to solve for three unknowns A, $$\phi$$ and t, we need three pieces of information. At some given it is necessary to know both the position and the velocity of the system (or the position at one time and the velocity at another time). The velocity is simply the derivative of the position. Clearly if the velocity and the position are zero at any time, the only possible configuration is $$A = 0$$ and the trampoline never moves! But otherwise it takes a shape like in the graph.
 
 Of course in reality the trampoline never continues to wobble ad infinitum, so we need to modify our model somewhat in order to get a more accurate representation. Like with last time, there is some opposing force involved which takes energy from the system, this one we usually call friction. I will not go into the math just yet. Let's return to the simple trampoline again. Mathematically, how do you solve differential equations of this form? This applies to any order, but typically we use it for second-order equations because higher-orders get nasty. Say you have an equation of the form

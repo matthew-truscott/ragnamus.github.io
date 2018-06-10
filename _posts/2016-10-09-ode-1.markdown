@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: page
 title:  "Parachutes"
 date:   2016-10-09 19:04 -0500
 categories: applied_math diff_eq
+mathjax: true
 ---
 
 Over the centuries, many scientists have performed experiments involving the nature of falling objects. As a result, we can make certain assumptions when thinking about people falling through the sky. Firstly, they fall directly towards the surface in more or less a straight line. Secondly, the time it takes to fall a certain distance is the same regardless of how heavy a person is. Physicists like to write mathematical relations to describe these observations. In the case of a falling entity we have
