@@ -26,4 +26,4 @@ github_username:  Ragnamus
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-midnight
