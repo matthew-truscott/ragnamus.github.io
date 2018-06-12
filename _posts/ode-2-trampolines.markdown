@@ -1,7 +1,6 @@
 ---
 layout: page
 title:  "Trampolines"
-date:   2016-10-09 10:10
 categories: applied_math diff_eq
 mathjax: true
 ---

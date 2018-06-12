@@ -5,7 +5,6 @@ sidebar:
 aside:
   toc: true
 title:  "Particles"
-date:   2018-06-09 22:51
 categories: applied_math classical_mechanics
 mathjax: true
 ---
@@ -27,8 +26,8 @@ This is a limited picture, but it is already possible to gain substantial physic
 1. [projectiles]
 2. [lifting tools]
 3. [springs]
-4. [trampolines](https://ragnamus.github.io/applied_math/diff_eq/2016/10/09/ode-2.html)
-5. [parachutes](https://ragnamus.github.io/applied_math/diff_eq/2016/10/10/ode-1.html)
+4. [trampolines](https://ragnamus.github.io/applied_math/diff_eq/ode-2-trampolines.html)
+5. [parachutes](https://ragnamus.github.io/applied_math/diff_eq/ode-1-parachutes.html)
 6. [collisions]
 7. [pressure]
 8. [rockets]
