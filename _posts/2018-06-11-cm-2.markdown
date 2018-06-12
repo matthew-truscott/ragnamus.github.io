@@ -8,8 +8,32 @@ title:  "Particle Systems"
 date:   2018-06-11 22:21
 categories: applied_math classical_mechanics
 mathjax: true
+excerpt_separator: <!--more-->
+excerpt_type: html
 ---
 
 In order to explore more applications of Newton's theory, it is necessary to consider the same laws in the context of many particles, and establish some useful properties of the system that will make our lives easier when looking at more complex things like continua (gotta love those latin based words). We replace [newton's second law](https://ragnamus.github.io/applied_math/classical_mechanics/2018/06/09/cm-1.html#cm-1-1) with
 
 $$\vec{F_{\textrm{int}}} + \vec{F_{\textrm{ext}}} = \frac{d\vec{p}}{dt}$$
+
+for a single particle. Force is separated into internal forces (between the particles) and external forces. Summing both sides of this equation gives us
+
+$$\sum_i{\vec{F}_i} = \frac{d^2}{dt^2}\sum_i{m_i\vec{r}_i}$$
+
+where the force vector is only the external force, since the sum of the internal forces is zero. The index implies a sum over all particles in the system. Newton's third law applied to this context states that for any pair of particles, the forces must be equal and opposite. To rewrite this back into the familiar Newtonian law we all know and love, define a new quantity known as the center of mass.
+
+<!--more-->
+
+The idea behind the center of mass is it allows us to simplify a system where one keeps track of every particle so that instead a single entity can be assumed. The hope is that this new entity should still follow the kinds of laws that make particles easy to model. The center of mass as the name suggests, is a point where the mass is balanced in every direction (if you have two particles, the point should be between the two). So in the simple case of two equal masses, where is this point located exactly? Intuitively the center should be exactly in the center, along the line that connects the two. This is indeed where the center of mass is. If the masses are not equal however, the center of mass should no longer be equidistant from the masses but closer to one. A nice way to intuitively think about this is imagining these masses under the force of gravity, if one were to fix the system at the center of mass, would gravity cause rotation? If yes, than the chosen center of mass is incorrect. Solely under the influence of gravity, a system fixed at the center of mass should have zero torque effects (since these are inherent to a system of particles rather than a single particle). Since torque is defined as being proportional to the distance from the point of rotation, one would expect a definition of the center of mass to take this relationship into account. Indeed the formal definition is
+
+$$\vec{R} = \frac{\sum_i m_i\vec{r}_i}{\sum_i m_i}$$
+
+That is, sum the mass-position contributions and divide by the total mass of the system. Defining bulk properties of the system,
+
+$$M = \sum_i m_i$$
+
+$$\vec{F} = \sum_i{\vec{F}_i}$$
+
+$$\vec{P} = \sum_i{\vec{P}_i}$$
+
+it is straightforward to rewrite newton's laws and the conservation laws in terms of these new bulk properties. 

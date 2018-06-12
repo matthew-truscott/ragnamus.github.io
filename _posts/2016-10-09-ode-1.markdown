@@ -1,5 +1,9 @@
 ---
 layout: page
+sidebar:
+  nav: cm
+aside:
+  toc: true
 title:  "Parachutes"
 date:   2016-10-09 19:04
 categories: applied_math diff_eq

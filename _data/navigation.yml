@@ -13,8 +13,18 @@ cm:
   - title:    Newtonian Mechanics
     children:
       - title: Introduction
-        url:      /toc/cm.html
+        url:      /toc/nm.html
       - title: Particles
         url:      /applied_math/classical_mechanics/2018/06/09/cm-1.html
       - title: Particle Systems
         url:      /applied_math/classical_mechanics/2018/06/11/cm-2.html
+      - title: Trampolines
+        url:      /applied_math/diff_eq/2016/10/09/ode-2.html
+      - title: Parachutes
+        url:      /applied_math/diff_eq/2016/10/09/ode-1.html
+  - title:    Lagrangian Mechanics
+    children:
+      - title: Introduction
+        url:      /toc/lm.html
+      - title: A New Take on Classical Mechanics
+        url:      /applied_math/classical_mechanics/2018/06/12/cm-3.html
