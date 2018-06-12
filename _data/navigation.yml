@@ -1,13 +1,18 @@
 header:
   - titles:
       en:       Archive
-      zh:       归档
-      zh-Hans:  归档
-      zh-Hant:  歸檔
     url:        /archive.html
   - titles:
       en:       About
-      zh:       关于
-      zh-Hans:  关于
-      zh-Hant:  關於
     url:        /about.html
+  - titles:
+      en:       Contents
+    url:        /contents.html
+
+cm:
+  - title:    Newtonian Mechanics
+    children:
+      - title: Introduction
+        url:      /toc/cm.html
+      - title: Particles
+        url:      /applied_math/classical_mechanics/2018/06/09/cm-1.html

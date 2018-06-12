@@ -1,8 +1,12 @@
 ---
 layout: page
+sidebar:
+  nav: cm
+aside:
+  toc: true
 title:  "Particles"
 date:   2018-06-09 22:51 -0500
-categories: applied_math classical_mechanics diff_eq
+categories: applied_math classical_mechanics
 mathjax: true
 ---
 
@@ -67,4 +71,4 @@ which is allowed for conservative vector fields. The integral form of the above 
 
 $$\int_{C} \vec{F}\cdot d\vec{x} = -\int dV$$
 
-Which is incidentally equal to the definition of work done. This potential function is therefore an energy function like kinetic energy and the work done can be written as a difference in potential energy terms. The law of energy conservation directly follows from this observation (write out the relationship between work, kinetic energy and potential energy for yourself to clearly see this). Essentially for conservative forces, the total energy or the sum of the kinetic energy and the potential energy is conserved. This derivation is not that obvious. For example, we sort of just came up with this potential energy term from the force without any intuitive explanation as to why this might be a useful thing. I haven't even defined potential energy! Kinetic energy was seen to be the energy desribing the motion of the particle. The potential energy can be thought of as the energy the particle must have to exist in a particular region of space where there are conservative forces acting. For example, the force of gravity which pulls all particles towards the Earth (and each other, although this effect is so small we don't consider it) is conservative and therefore can define a related potential V exactly as we showed earlier. As for why potential is defined by that exact equation, it's a result of a theorem in vector calculus, and of course the motivation of having a quantity of that form in the first place is from the defined work done function. 
+Which is incidentally equal to the definition of work done. This potential function is therefore an energy function like kinetic energy and the work done can be written as a difference in potential energy terms. The law of energy conservation directly follows from this observation (write out the relationship between work, kinetic energy and potential energy for yourself to clearly see this). Essentially for conservative forces, the total energy or the sum of the kinetic energy and the potential energy is conserved. This derivation is not that obvious. For example, we sort of just came up with this potential energy term from the force without any intuitive explanation as to why this might be a useful thing. I haven't even defined potential energy! Kinetic energy was seen to be the energy desribing the motion of the particle. The potential energy can be thought of as the energy the particle must have to exist in a particular region of space where there are conservative forces acting. For example, the force of gravity which pulls all particles towards the Earth (and each other, although this effect is so small we don't consider it) is conservative and therefore can define a related potential V exactly as we showed earlier. As for why potential is defined by that exact equation, it's a result of a theorem in vector calculus, and of course the motivation of having a quantity of that form in the first place is from the defined work done function.
