@@ -5,7 +5,7 @@ sidebar:
 aside:
   toc: true
 title:  "Particles"
-date:   2018-06-09 22:51 -0500
+date:   2018-06-09 22:51
 categories: applied_math classical_mechanics
 mathjax: true
 ---
