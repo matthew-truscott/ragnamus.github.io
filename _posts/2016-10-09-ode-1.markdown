@@ -4,6 +4,8 @@ title:  "Parachutes"
 date:   2016-10-09 19:04
 categories: applied_math diff_eq
 mathjax: true
+excerpt_separator: <!--more-->
+excerpt_type: html
 ---
 
 Over the centuries, many scientists have performed experiments involving the nature of falling objects. As a result, we can make certain assumptions when thinking about people falling through the sky. Firstly, they fall directly towards the surface in more or less a straight line. Secondly, the time it takes to fall a certain distance is the same regardless of how heavy a person is. Physicists like to write mathematical relations to describe these observations. In the case of a falling entity we have
@@ -11,6 +13,8 @@ Over the centuries, many scientists have performed experiments involving the nat
 $$t\propto\sqrt{d}$$
 
 where d is the height at which we start timing the fall, and t is the time that it takes to hit the ground. The relation was derived by noticing that every time the distance was increased by say a factor of four, the time taken to hit the ground would double, hence the square root relationship. One can rearrange and find the distance travelled as a function of time.
+
+<!--more-->
 
 $$d(t)=ct^2$$
 

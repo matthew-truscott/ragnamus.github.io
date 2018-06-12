@@ -4,8 +4,12 @@ sidebar:
   nav: cm
 aside:
   toc: true
-title:  "Particles"
+title:  "Particle Systems"
 date:   2018-06-11 22:21
 categories: applied_math classical_mechanics
 mathjax: true
 ---
+
+In order to explore more applications of Newton's theory, it is necessary to consider the same laws in the context of many particles, and establish some useful properties of the system that will make our lives easier when looking at more complex things like continua (gotta love those latin based words). We replace [newton's second law](https://ragnamus.github.io/applied_math/classical_mechanics/2018/06/09/cm-1.html#cm-1-1) with
+
+$$\vec{F_{\textrm{int}}} + \vec{F_{\textrm{ext}}} = \frac{d\vec{p}}{dt}$$

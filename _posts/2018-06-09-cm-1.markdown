@@ -8,6 +8,8 @@ title:  "Particles"
 date:   2018-06-09 22:51
 categories: applied_math classical_mechanics
 mathjax: true
+excerpt_separator: <!--more-->
+excerpt_type: html
 ---
 
 So I started writing some cool shit last week on setting up physical systems from the ground up, which assumes a non-physics background and I decided to work on this site again in order to have these things online as a possibly useful learning resource. The end goal is to have a physics pages that doesn't look ancient, with a little more body to it, like wikipedia has (and all the links that come with it), with the personality of a blog or some hitchhiker's guide to the galaxy encyclopedia. If I do want to encompass all of physics, it's pretty ambitious, especially considering I'd like to add in simulations, graphs and the associated code (I'll be working in python).
@@ -16,9 +18,11 @@ For now, the plan is to keep writing standalone 'articles', which will eventuall
 
 Static particles from a modelling perspective (say you wanted to simulate some physical system), can be described simply by a three dimensional position vector in cartesian coordinates, and a mass. The mass of an object allows us to define momentum and in turn, force. We note that these are vector quantities, momentum is another property of the particle, it is zero if the particle is static. Force can apply to a region or a point and therefore influence one particle or many. Therefore, sticking to this modelling perspective, force ought to be considered separately from particles. Momentum is formally defined by the product of the mass and the velocity (a scalar multiplied by a vector). The velocity of a particle is the change of position with respect to time. One can differentiate the vector quantities of particles indefinitely in order to get new crazy descriptors of how these entities behave in space, however, we typically consider only the first two, velocity and acceleration.
 
+<!--more-->
+
 Acceleration is a particularly useful quantity because it relates to the force. Hence we consider it but we don't consider anything further, since there usually isn't any physical purpose to do so.
 
-$$\vec{F} = \frac{d\vec{p}}{dt}$$
+$$\vec{F} = \frac{d\vec{p}}{dt}$$ <a name="cm-1-1"></a>
 
 The derivative of momentum with respect to time is equal to the force, or alternatively, the acceleration is equal to the force divided by the mass (feel free to verify this). An entity worth considering at this point is a frame. The frame contains the system where the particles reside. It contains the space in which we can define position, and it possesses a property of time that governs the motion of the particle. It can also move, and accelerate. A non-accelerating frame is also called a non-inertial frame. In such a frame, the sum of the momenta of everything inside must be constant. Additionally, the total energy of everything inside an isolated frame (one that does not gain or lose energy to its surroundings) must be constant. Under the conditions of this isolated frame, these laws of conservation together with the relationship between force and momentum allow us to predict the motion of particles.
 

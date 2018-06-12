@@ -4,10 +4,14 @@ title:  "Trampolines"
 date:   2016-10-09 10:10
 categories: applied_math diff_eq
 mathjax: true
+excerpt_separator: <!--more-->
+excerpt_type: html
 ---
 There is a form of differential equation I never went into last time, I will generate it again, this time through a different stand-alone example. Trampolines are a great way to see the use of such equations in the real world. First let's ignore how they work and consider what they do. A trampoline is a large area of fabric that remains stretched out. When someone stands on the surface, the fabric gets pulled in, so that their feet are lower than the surface was originally. When someone jumps on the trampoline, the surface pushes back and allows them to jumps higher. Without any extra legwork, a person may remain bouncing for a little while, however, normally they'll need to put in some effort in order to continue bouncing. How is this all possible?
 
 The basic physics explanation is neat and simple. Trampolines exploit the nature of springs. Springs have some natural length, change this, and they supply a restoring force proportional to the length of contraction of expansion. Multiple springs are used, not only to fit the shape of the trampoline, but also so that each spring need not be as strong. Each spring has some tolerance, supply too much force (extend it too much) and they lose their ability to pull back. If you use springs together in parallel, the force each experiences, assuming the springs are identical, is split evenly. Let's first consider a trampoline without a person standing on it. We will assume that one spring is in operation, (which is okay as long as they are identical), and that the fabric weighs nothing.
+
+<!--more-->
 
 Constructing the equation is straightforward, if force is proportional to extension, $$F=-kx$$ where k is a constant. Note the negative sign to denote a restoring force. As we have seen before, $$F = ma$$ and a is just a second derivative of x, so
 
