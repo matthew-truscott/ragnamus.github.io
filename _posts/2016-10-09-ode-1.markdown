@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Parachutes"
-date:   2016-10-09 19:04 -0500
+date:   2016-10-09 19:04
 categories: applied_math diff_eq
 mathjax: true
 ---

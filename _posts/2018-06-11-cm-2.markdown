@@ -1,0 +1,11 @@
+---
+layout: page
+sidebar:
+  nav: cm
+aside:
+  toc: true
+title:  "Particles"
+date:   2018-06-11 22:21
+categories: applied_math classical_mechanics
+mathjax: true
+---
